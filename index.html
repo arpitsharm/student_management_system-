@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>Todo App</h1>
+            <ul class="nav-links">
+                <li><a href="#" id="homeid">Home</a></li>
+                <li><a href="#" id="modeid">Dark Mode</a></li>
+                <li><a href="#" id="">-----</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="tittle">
+            <center>
+                <h1>Todo App</h1>
+            </center>
+        </div>
+
+        <div class="todo">
+            <form id="todoForm">
+                <input type="text" id="name" placeholder="Enter your name" required>
+                <input type="text" id="work" placeholder="Enter your work" required>
+                <button type="submit">Add Todo</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Work</th>
+                    </tr>
+                </thead>
+                <tbody id="todoList">
+                    <!-- Todo items will appear here -->
+                </tbody>
+            </table>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
